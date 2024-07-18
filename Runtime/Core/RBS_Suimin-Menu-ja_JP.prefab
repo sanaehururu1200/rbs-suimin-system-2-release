@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u8DB3\u56FA\u5B9A"
       objectReference: {fileID: 0}
+    - target: {fileID: 1658382560493881913, guid: c197217a03c84ec44b23c62e402349d3, type: 3}
+      propertyPath: m_Name
+      value: "\u8A73\u7D30\u8A2D\u5B9A"
+      objectReference: {fileID: 0}
     - target: {fileID: 2130816263140173063, guid: c197217a03c84ec44b23c62e402349d3, type: 3}
       propertyPath: m_Name
       value: "\u7761\u7720\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3"
@@ -63,6 +67,10 @@ PrefabInstance:
     - target: {fileID: 7967789525616403984, guid: c197217a03c84ec44b23c62e402349d3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204867620759987657, guid: c197217a03c84ec44b23c62e402349d3, type: 3}
+      propertyPath: m_Name
+      value: "OVR\u9AD8\u3055\u540C\u671F"
       objectReference: {fileID: 0}
     - target: {fileID: 8571331975446470875, guid: c197217a03c84ec44b23c62e402349d3, type: 3}
       propertyPath: m_Name

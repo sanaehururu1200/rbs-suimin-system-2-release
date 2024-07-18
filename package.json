@@ -1,8 +1,8 @@
 {
-  "name": "vpm-package",
-  "version": "0.0.0",
-  "displayName": "",
-  "description": "",
-  "url" : "",
-  "vpmDependencies" : { }
+    "name": "studio.raspberry.vrchat.ma-suimin-system",
+    "version": "0.0.0",
+    "displayName": "",
+    "description": "",
+    "url": "https://github.com/sanaehururu1200/rbs-suimin-system-release",
+    "vpmDependencies": {}
 }

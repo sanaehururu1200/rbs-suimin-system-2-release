@@ -1,9 +1,7 @@
 {
-    "name": "vpm-package.editor",
-    "references": [ ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "name": "studio.raspberry.vrchat.ma-suimin-system.runtime",
+    "references": [],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

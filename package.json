@@ -1,6 +1,6 @@
 {
     "name": "studio.raspberry.vrchat.ma-suimin-system",
-    "version": "1.0.0-alpha.1",
+    "version": "1.0.0-alpha.2",
     "unity": "2022.3",
     "displayName": "RBS Suimin System 2",
     "description": "3点睡眠ギミック / ma-suimin-system-2",
@@ -9,7 +9,7 @@
         "email": "haruru@raspberry.studio",
         "url": "https://www.raspberry.studio"
     },
-    "url": "https://github.com/sanaehururu1200/rbs-suimin-system-release",
+    "url": "https://github.com/sanaehururu1200/rbs-suimin-system-2-release",
     "vpmDependencies": {
         "com.vrchat.avatars": ">=3.4.0",
         "nadena.dev.modular-avatar": ">=1.9.3"

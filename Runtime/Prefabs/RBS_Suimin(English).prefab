@@ -474,7 +474,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9209882263232961884}
-  - {fileID: 897190311332743508}
   - {fileID: 496119275098080669}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -506,7 +505,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 2
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 1
@@ -516,7 +515,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 2
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 1
@@ -526,7 +525,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 2
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 1
@@ -536,7 +535,7 @@ MonoBehaviour:
     internalParameter: 0
     isPrefix: 0
     syncType: 2
-    localOnly: 0
+    localOnly: 1
     defaultValue: 0
     saved: 0
     hasExplicitDefaultValue: 1
@@ -561,16 +560,6 @@ MonoBehaviour:
     saved: 0
     hasExplicitDefaultValue: 1
     m_overrideAnimatorDefaults: 0
-  - nameOrPrefix: rbs_motion_height
-    remapTo: 
-    internalParameter: 1
-    isPrefix: 0
-    syncType: 2
-    localOnly: 0
-    defaultValue: 0
-    saved: 0
-    hasExplicitDefaultValue: 1
-    m_overrideAnimatorDefaults: 0
   - nameOrPrefix: rbs_enable_petan
     remapTo: 
     internalParameter: 1
@@ -581,7 +570,7 @@ MonoBehaviour:
     saved: 0
     hasExplicitDefaultValue: 1
     m_overrideAnimatorDefaults: 0
-  - nameOrPrefix: rbs_motion_height_change
+  - nameOrPrefix: rbs_motion_height_enable
     remapTo: 
     internalParameter: 1
     isPrefix: 0
@@ -589,7 +578,7 @@ MonoBehaviour:
     localOnly: 0
     defaultValue: 0
     saved: 0
-    hasExplicitDefaultValue: 1
+    hasExplicitDefaultValue: 0
     m_overrideAnimatorDefaults: 0
 --- !u!1 &4615744838222607960
 GameObject:
@@ -656,80 +645,6 @@ Animator:
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ecb8ff610bf856d40b40ba63f028de29, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!1 &7412115757060453695
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 897190311332743508}
-  - component: {fileID: 2719032039637121214}
-  - component: {fileID: 8085056829420396706}
-  m_Layer: 0
-  m_Name: additive
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &897190311332743508
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412115757060453695}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1457312244083028546}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2719032039637121214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412115757060453695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bb122659f724ebf85fe095ac02dc339, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 9100000, guid: e80e2026a1ae2bf4cacc0ef2d25e5257, type: 2}
-  layerType: 2
-  deleteAttachedAnimator: 1
-  pathMode: 0
-  matchAvatarWriteDefaults: 1
-  relativePathRoot:
-    referencePath: 
-  layerPriority: 0
---- !u!95 &8085056829420396706
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7412115757060453695}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e80e2026a1ae2bf4cacc0ef2d25e5257, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

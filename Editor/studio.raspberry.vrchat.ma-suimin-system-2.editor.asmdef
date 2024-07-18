@@ -1,6 +1,7 @@
 {
-    "name": "studio.raspberry.vrchat.ma-suimin-system.editor",
-    "references": [ ],
+    "name": "studio.raspberry.vrchat.ma-suimin-system-2.editor",
+    "rootNamespace": "",
+    "references": [],
     "includePlatforms": [
         "Editor"
     ],

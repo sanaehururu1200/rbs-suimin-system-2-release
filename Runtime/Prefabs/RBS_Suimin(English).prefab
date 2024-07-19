@@ -633,7 +633,7 @@ MonoBehaviour:
   matchAvatarWriteDefaults: 1
   relativePathRoot:
     referencePath: 
-  layerPriority: 0
+  layerPriority: -100
 --- !u!95 &8123951125187715319
 Animator:
   serializedVersion: 5
